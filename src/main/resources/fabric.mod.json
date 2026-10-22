@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autocart",
+  "version": "${version}",
+  "name": "Autocart Mod",
+  "description": "Automatically places minecarts when rails are placed",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/enderdevelopment/autocart"
+  },
+  "license": "MIT",
+  "icon": "assets/autocart/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.autocart.AutocartMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4"
+  }
+}
